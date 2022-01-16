@@ -33,11 +33,11 @@ c. Computes the pathlines numerically using a similar method mypathline(u,v,x,y,
 
 ## 4. hagen_poiseuille - ##
 
-Solves the ordinary differential equation numerically and compares with the analytical solution of the Hagen-Poiseuille flow. For more information on this flow, please read [this](https://www.annualreviews.org/doi/pdf/10.1146/annurev.fl.25.010193.000245) article.
+Solves the ordinary differential equation numerically and compares it with the analytical solution of the Hagen-Poiseuille flow. For more information on this flow, please read [this](https://www.annualreviews.org/doi/pdf/10.1146/annurev.fl.25.010193.000245) article.
 
 ## 5. rotating_cylinders - ##
 
-Considers the flow between two rotating cylinders rotating with angular velocity _Ω1, Ω2_ such that _r1 ≤ r ≤ r2_. Here the subscripts 1, 2 refer to the inner and the outer cylinders respectively. The streamlines are assumed to be circular so that the only component of velocity is the tangential velocity, _uθ_. Furthermore, _uθ_ is only a function of radial distance _r_, and time _t_.<br>
+Consider the flow between two rotating cylinders rotating with angular velocity _Ω1, Ω2_ such that _r1 ≤ r ≤ r2_. Here the subscripts 1, 2 refer to the inner and the outer cylinders respectively. The streamlines are assumed to be circular so that the only component of velocity is the tangential velocity, _uθ_. Furthermore, _uθ_ is only a function of radial distance _r_, and time _t_.<br>
 
 a. Solves the ordinary differential equation numerically and compares with the analytical solution of the flow between two rotating cylinders.<br>
 
