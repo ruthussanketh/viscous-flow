@@ -2,7 +2,7 @@
 Codes to some popular problems and methods in Viscous Flow Theory.
 
 
-1. mynumdiff -
+## 1. mynumdiff - ##
 
 Computes the derivative of the function f(x) where x is the grid on which f(x) has been computed. We assume f(x) = sin(x), but this is customizable for different functions.
 
